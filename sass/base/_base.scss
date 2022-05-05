@@ -1,0 +1,59 @@
+body {
+    background-color: #FFFFFF;
+    color: #212121;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+                            
+// Убираем подчёркивание у ссылок a
+a {
+    text-decoration: none;
+}
+
+// Удаляет точки из всех списков ul
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+// Наведение курсора
+.link:hover, .link:focus {
+    color: #2196F3;
+}
+
+// Отступы между секциями
+.nav__list a {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.section-features {
+    padding-top: 94px;
+}
+
+.section-operation,
+.section-portfolio,
+.section-team,
+.section-clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+// Заголовки блоков на странице Home
+h2 {
+    color: #212121;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+}

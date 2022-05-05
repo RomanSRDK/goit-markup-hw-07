@@ -1,0 +1,121 @@
+// Footer
+.footer {
+    background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-container {
+    display: flex;
+    align-items: baseline;
+}
+
+// Contacts
+address {
+    font-style: normal;
+}
+
+.address-list {
+    margin-bottom: 9px;
+    display: block;
+}
+
+.address-list:last-child {
+    margin-bottom: 0;
+}
+
+.address-country {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.contact-us-footer {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+// Footer right side
+.footer-right-side {
+    margin-left: 70px;
+}
+
+.footer-invite {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+ }
+
+ .footer-icons {
+    display: flex;
+ }
+
+ .footer-list:not(:last-child) {
+    margin-right: 10px;
+ }
+
+//  Footer form
+.footer-form {
+    margin-left: 93px;
+ }
+
+ .mail-form {
+    display: flex;
+ }
+
+ .mail-form-input {
+    width: 358px;
+    height: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    color: rgba(255, 255, 255, 0.6);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background: transparent;
+    cursor: pointer;
+    outline: transparent;
+ }
+
+ .mail-form-button {
+     display: flex;
+     align-items: center;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    padding: 10px 28px;
+    margin-left: 12px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    background-color: #2196F3;
+    color: #FFFFFF;
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ }
+
+ .mail-form-button:hover {
+    background-color: #188CE8;
+ }
+
+ .footer-icon {
+    margin-left: 10px;
+    fill: #FFFFFF;
+ }

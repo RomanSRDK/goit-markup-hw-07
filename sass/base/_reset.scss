@@ -1,0 +1,11 @@
+/* Reset css */
+h1, h2, h3, h4, p, ul {
+    margin: 0;
+}
+
+/* Адаптивная настройка изображения */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
